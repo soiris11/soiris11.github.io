@@ -1,0 +1,60 @@
+:root {
+  /* Colours */
+  --dark-blue: #002ead;
+  --theme-color: #0a0a23;
+  --gray90: #0a0a23;
+  --gray85: #1b1b32;
+  --gray80: #2a2a40;
+  --gray75: #3b3b4f;
+  --gray45: #858591;
+  --gray15: #d0d0d5;
+  --gray10: #dfdfe2;
+  --gray05: #eeeef0;
+  --gray00: #fff;
+  --header-height: 38px;
+}
+
+.red-header {
+  color: red;
+}
+
+.menu {
+  position: absolute;
+  top: 100px;
+  background: green;
+}
+
+.hoverable {
+  width: 300px;
+  height: 100px;
+
+}
+
+.hoverable img {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.hoverable img.hidden {
+  display: none;
+  object-fit: cover;
+}
+
+.cta-button {
+  width: content;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  border: 3px solid var(--gray90);
+  background: var(--gray10);
+  color: var(--gray90);
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.cta-button:hover {
+  background: var(--gray90);
+  color: var(--gray10);
+}

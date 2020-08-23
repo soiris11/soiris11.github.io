@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  /* 
+    display:
+      block
+      inline
+      inline-block
+      flex
+  */
+  /* 
+    position:
+      relative
+      absolute
+      fixed
+  */
+}
