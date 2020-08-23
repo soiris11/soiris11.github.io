@@ -1,6 +1,8 @@
+/*
 document.querySelector('.red-header').addEventListener('click', function(e){
   console.log(e.target);
 });
+*/
 
 document.querySelectorAll('.hoverable')
   .forEach(function(hoverable) {
