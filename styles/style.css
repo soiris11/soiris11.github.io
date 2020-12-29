@@ -58,3 +58,8 @@
   background: var(--gray90);
   color: var(--gray10);
 }
+
+img.thumbnail {
+  width: 30px;
+  height: 30px;
+}
